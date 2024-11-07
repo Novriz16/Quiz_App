@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <div id="quiz">
+            <h2 id="question">Pertanyaan Akan Muncul di Sini</h2>
+            <div class="options">
+                <button class="option" onclick="selectAnswer(0)">Pilihan 1</button>
+                <button class="option" onclick="selectAnswer(1)">Pilihan 2</button>
+                <button class="option" onclick="selectAnswer(2)">Pilihan 3</button>
+                <button class="option" onclick="selectAnswer(3)">Pilihan 4</button>
+            </div>
+            <button id="next-button" onclick="nextQuestion()">Soal Berikutnya</button>
+            <h3 id="score">Skor: 0</h3>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
